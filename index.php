@@ -10,8 +10,13 @@
 -- Copyright © 2018 by Ahmet PARPUCU and Berkan ÜMÜTLÜ. All Rights Reserved.
 -->
 <?php
+// Oturum başlatılıyor.
 session_start();
+// Gerekli kontrol fonksiyonları çalıştırılması için "controller.php" include ediliyor.
 include 'controller/controller.php';
+// Sayfalar arası geçiş "sayfa" değişkeni ile sağlanmaktadır.
+// "month" ile "year" değişkenleri takvimi görüntülemek için kullanılır.
+// "sayfa" değişkeni veya "month" ile "year" değişkeni değeri boş değil ise
 if(!empty($_GET["sayfa"]) || (!empty($_GET["month"]) && !empty($_GET["year"])))
 {
 	$sayfa = $_GET["sayfa"];
@@ -69,7 +74,7 @@ if(!empty($_GET["sayfa"]) || (!empty($_GET["month"]) && !empty($_GET["year"])))
 		default	: { hata_sayfa_bulunamadi();}
 	}
 }
-else
+else// Eğer atanmamış ise Hata Sayfasını gösteren fonksiyon çağırılır.
 {
 	hata_sayfa_bulunamadi();
 }
