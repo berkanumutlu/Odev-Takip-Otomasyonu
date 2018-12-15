@@ -1,3 +1,3 @@
 <?php
-	include 'model/haber.php';
+	include 'haber.php';
 ?>

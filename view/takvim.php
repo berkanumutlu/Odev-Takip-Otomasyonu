@@ -1,4 +1,5 @@
 <?php
+setlocale(LC_TIME, 'tr_TR.UTF-8');
 class Calendar{
     /**
     ** Constructor

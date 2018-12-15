@@ -4,8 +4,8 @@ include 'veritabani.php';
 function tum_sehirler($gelen_dizi=null)
 {
 	global $connect;
-	$sorgu=mysqli_query($connect,"SELECT * FROM sehirler");
-	$sorgu_sonuc=mysqli_num_rows($sorgu);
+	$sorgu = mysqli_query($connect,"SELECT * FROM sehirler");
+	$sorgu_sonuc = mysqli_num_rows($sorgu);
 	if ($sorgu_sonuc > 0)
 	{
 		echo '<option value="">İl Seçin</option>';
