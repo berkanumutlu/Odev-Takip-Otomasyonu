@@ -13,7 +13,7 @@
 // Oturum başlatılıyor.
 session_start();
 // Gerekli kontrol fonksiyonları çalıştırılması için "controller.php" include ediliyor.
-include 'controller/controller.php';
+require 'controller/controller.php';
 // Sayfalar arası geçiş "sayfa" değişkeni ile sağlanmaktadır.
 // "month" ile "year" değişkenleri takvimi görüntülemek için kullanılır.
 // "sayfa" değişkeni veya "month" ile "year" değişkeni değeri boş değil ise
