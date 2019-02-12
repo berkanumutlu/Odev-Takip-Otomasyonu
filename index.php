@@ -7,7 +7,7 @@
 -- Server Version: 5.7.19
 -- PHP Version: 7.1.9
 --
--- Copyright © 2018 by Ahmet PARPUCU and Berkan ÜMÜTLÜ. All Rights Reserved.
+-- Copyright © 2018 by Berkan ÜMÜTLÜ. All Rights Reserved.
 -->
 <?php
 // Oturum başlatılıyor.

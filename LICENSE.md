@@ -1,1 +1,1 @@
-**Copyright © 2018 by Ahmet PARPUCU and Berkan ÜMÜTLÜ. All Rights Reserved.**
+**Copyright © 2018 by Berkan ÜMÜTLÜ. All Rights Reserved.**
